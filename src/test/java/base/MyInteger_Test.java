@@ -27,8 +27,13 @@ public class MyInteger_Test {
 	}
 
 	@Test
+	public void test_isEven() {
+		assertTrue(MyInteger.isEven(4));
+	}
+	@Test
 	public void test() {
 		assertTrue(1==1);
 	}
+	
 
 }
