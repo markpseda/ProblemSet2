@@ -56,23 +56,23 @@ public class MyInteger {
 			return true;
 	}
 	
-	public static boolean isEven(MyInteger value){//returns whether the iValue of an instance of MyInteger is even
-		if((value.getiValue()%2)==0)
+	public static boolean isEven(MyInteger instance){//returns whether the iValue of an instance of MyInteger is even
+		if((instance.getiValue()%2)==0)
 			return(true);
 		else
 			return(false);
 	}
 	
-	public static boolean isOdd(MyInteger value){//returns whether the iValue of an instance of MyInteger is odd
-		if((value.getiValue()%2)==0)
+	public static boolean isOdd(MyInteger instance){//returns whether the iValue of an instance of MyInteger is odd
+		if((instance.getiValue()%2)==0)
 			return(false);
 		else
 			return(true);
 	}
 	
-	public static boolean isPrime(MyInteger value){ //returns whether an integer is prime
-		for(int i=2; i<value.getiValue(); i++) {
-			if(value.getiValue() % i ==0)
+	public static boolean isPrime(MyInteger instance){ //returns whether an integer is prime
+		for(int i=2; i<instance.getiValue(); i++) {
+			if(instance.getiValue() % i ==0)
 				return false;
 		}
 			return true;
