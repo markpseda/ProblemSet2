@@ -85,8 +85,8 @@ public class MyInteger {
 			return false;
 	}
 	
-	public boolean equals(MyInteger value){//returns whether two instances of MyInteger have the same iValue
-		if(this.getiValue() == value.getiValue())
+	public boolean equals(MyInteger instance){//returns whether two instances of MyInteger have the same iValue
+		if(this.getiValue() == instance.getiValue())
 			return true;
 		else
 			return false;
